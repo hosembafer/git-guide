@@ -7,3 +7,5 @@ git reset --mixed <commit hash> # Resetting history, and marking undoed changes 
 git reset --soft <commit hash> # Resetting history, and marking undoed changes staged (green).
 git reset <commit hash> # Looks like it set by default as --mixed
 ```
+
+If changes were pushed, you will need to push undoed tree with force mark like `git push -f` or `git push --force`.
